@@ -1,0 +1,5 @@
+open_clip_torch
+gradio
+numpy
+torch
+pytorch_lightning
