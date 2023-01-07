@@ -13,13 +13,13 @@ CLIP+MLP Aesthetic Score Predictor, using ViT-H, based on [improved-aesthetic-pr
 * [LAION-logos](https://huggingface.co/datasets/ChristophSchuhmann/aesthetic-logo-ratings)
 
 
-[precomputed ViT-H embeds for sac+ava+logos](https://dataset.sygil.dev/sac+ava+logos_vitH_embeds.tar)
+[precomputed ViT-H embeds for sac+ava+logos](https://dataset.droom.cloud/sac+ava+logos_vitH_embeds.tar)
 
 # sacavalogo.py
 
 prepares the data for training
 
-[dataset ratings files](https://dataset.sygil.dev/sac+ava+logos_ratings.tar) (to use with precomputed embeds)
+[dataset ratings files](https://dataset.droom.cloud/sac+ava+logos_ratings.tar) (to use with precomputed embeds)
 
 ```
 usage: sacavalogo.py [-h] --laion-logo-parquet LAION_LOGO_PARQUET --laion-logo-embeddings-dir LAION_LOGO_EMBEDDINGS_DIR --ava-txt AVA_TXT --ava-embeddings-dir AVA_EMBEDDINGS_DIR --sac-sqlite
