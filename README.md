@@ -4,9 +4,9 @@ CLIP+MLP Aesthetic Score Predictor, using ViT-H, based on [improved-aesthetic-pr
 
 # Want to help?
 
-(Rate images for aesthetics)[https://tinybots.net/artbot/rate] and get (Stable Horde)[https://stablehorde.net/] Kudos
+[Rate images for aesthetics](https://tinybots.net/artbot/rate) and get [Stable Horde](https://stablehorde.net/) Kudos
 
-Datasets used:
+# Datasets used
 
 * [AVA: A Large-Scale Database for Aesthetic Visual Analysis](https://academictorrents.com/details/71631f83b11d3d79d8f84efe0a7e12f0ac001460)
 * [Simulacra Aesthetic Captions](https://github.com/JD-P/simulacra-aesthetic-captions)
