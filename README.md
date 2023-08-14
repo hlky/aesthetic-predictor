@@ -2,24 +2,15 @@
  
 CLIP+MLP Aesthetic Score Predictor, using ViT-H, based on [improved-aesthetic-predictor](https://github.com/christophschuhmann/improved-aesthetic-predictor/)
 
-# Want to help?
-
-[Rate images for aesthetics](https://tinybots.net/artbot/rate) and get [Stable Horde](https://stablehorde.net/) Kudos
-
 # Datasets used
 
 * [AVA: A Large-Scale Database for Aesthetic Visual Analysis](https://academictorrents.com/details/71631f83b11d3d79d8f84efe0a7e12f0ac001460)
 * [Simulacra Aesthetic Captions](https://github.com/JD-P/simulacra-aesthetic-captions)
 * [LAION-logos](https://huggingface.co/datasets/ChristophSchuhmann/aesthetic-logo-ratings)
 
-
-[precomputed ViT-H embeds for sac+ava+logos](https://dataset.droom.cloud/sac+ava+logos_vitH_embeds.tar)
-
 # sacavalogo.py
 
 prepares the data for training
-
-[dataset ratings files](https://dataset.droom.cloud/sac+ava+logos_ratings.tar) (to use with precomputed embeds)
 
 ```
 usage: sacavalogo.py [-h] --laion-logo-parquet LAION_LOGO_PARQUET --laion-logo-embeddings-dir LAION_LOGO_EMBEDDINGS_DIR --ava-txt AVA_TXT --ava-embeddings-dir AVA_EMBEDDINGS_DIR --sac-sqlite
